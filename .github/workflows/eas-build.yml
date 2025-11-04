@@ -54,4 +54,4 @@ jobs:
 
       - name: Build on EAS
         run: |
-          eas build --platform ${{ github.event.inputs.platform }} --profile ${{ github.event.inputs.profile }} --non-interactive --auto-submit
+          eas build --platform ${{ github.event.inputs.platform }} --profile ${{ github.event.inputs.profile }} --non-interactive
